@@ -1,0 +1,170 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+hr {
+  border: 10px dotted lightgrey;
+  border-top: none;
+  margin-top: 75px;
+  width: 100px;
+  letter-spacing: 10px;
+}
+
+#spotlight {
+  padding: auto 5%;
+}
+
+.navbarFix {
+  padding-top: 75px;
+}
+
+/* Grids */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Spotlight */
+.spotlight-wrapper {
+  margin: 3% auto;
+}
+.spotlight-img {
+  height: 50vh;
+  margin: auto;
+}
+.spotlight-text {
+  margin: auto;
+  padding: 0 5%;
+}
+.spotlight-p1 {
+  line-height: 3rem;
+  max-width: 350px;
+}
+
+/* Langauges */
+.gen-skills ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.gen-skills {
+  margin: 7% auto;
+}
+.skills ul {
+  padding: 3% 0;
+  line-height: 4rem;
+}
+
+/* Portfolio */
+.tabs {
+  width: 70%;
+  margin: 4rem auto auto;
+}
+.tab-item {
+  padding-bottom: 2rem;
+}
+.tab-item:hover {
+  cursor: pointer;
+}
+.tab-border {
+  border-bottom: 5px black solid;
+  margin-bottom: 3rem;
+}
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+.tab-content {
+  transition: all 0.2s ease-in-out;
+}
+.tab-content:hover {
+  transform: scale(1.1);
+}
+.tabs i {
+  margin: 0 5px;
+}
+.tab-content-item div {
+  margin-bottom: 3rem;
+}
+.tab-content-item p {
+  height: 15em;
+  width: 18rem;
+  margin: auto;
+  padding: 7rem 0;
+  color: white;
+}
+.show {
+  display: block !important;
+}
+/* Contact */
+.contact {
+  margin: 5% auto;
+}
+.fa-envelope {
+  font-size: 6em;
+}
+/* Footer */
+footer .navbar-brand {
+  margin-right: 0;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .spotlight-img {
+    height: 37vh;
+  }
+  .spotlight-wrapper {
+    margin: auto 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* Spotlight */
+  .spotlight-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .spotlight-img {
+    margin-top: 7%;
+    height: 40vh;
+  }
+  .spotlight-text {
+    margin-top: 7%;
+  }
+  .spotlight-p1 {
+    margin-bottom: 10%;
+  }
+  /* Languages */
+  .skills {
+    display: block;
+  }
+  /* Portfolio */
+  .tabs {
+    width: 85%;
+  }
+  .tab-1-content,
+  .tab-2-content,
+  .tab-3-content {
+    display: block;
+  }
+  /* Contact */
+  .contact {
+    margin: 10% auto;
+  }
+  .fa-envelope {
+    font-size: 4em;
+  }
+}
