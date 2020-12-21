@@ -132,6 +132,13 @@ footer .navbar-brand {
     margin: auto 5%;
   }
 }
+
+@media only screen and (max-width: 950px) {
+ .tab-3-content {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   /* Spotlight */
   .spotlight-wrapper {
