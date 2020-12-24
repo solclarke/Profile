@@ -107,6 +107,10 @@ hr {
   padding: 7rem 0;
   color: white;
 }
+.tab-info {
+  color: black;
+  padding: 2rem 0;
+}
 .show {
   display: block !important;
 }
