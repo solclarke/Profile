@@ -85,8 +85,7 @@ hr {
   margin-bottom: 3rem;
 }
 #tab-1-content,
-#tab-2-content,
-#tab-3-content {
+#tab-2-content {
   display: none;
 }
 .tab-content {
@@ -133,8 +132,8 @@ footer .navbar-brand {
   }
 }
 
-@media only screen and (max-width: 950px) {
- .tab-3-content {
+@media only screen and (max-width: 930px) {
+ .tab-1-content {
     display: block;
   }
 }
@@ -162,9 +161,7 @@ footer .navbar-brand {
   .tabs {
     width: 85%;
   }
-  .tab-1-content,
-  .tab-2-content,
-  .tab-3-content {
+  .tab-2-content {
     display: block;
   }
   /* Contact */
