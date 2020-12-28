@@ -109,10 +109,18 @@ hr {
 }
 .tab-info {
   color: black;
-  padding: 2rem 0;
+  padding: 1rem 0 2rem;
 }
 .show {
   display: block !important;
+}
+.source-code {
+  font-weight: 900;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+.source-code:hover {
+  transform: scale(1.1);
 }
 /* Contact */
 .contact {
